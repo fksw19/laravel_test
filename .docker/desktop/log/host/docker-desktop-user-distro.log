@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:08:29.151806982Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/<USER>_tomoyuki/.docker/contexts
+[2024-05-22T02:08:29.157603465Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/<USER>_tomoyuki/.docker/contexts os.Symlink <HOME>/.docker/contexts -> /mnt/c/Users/<USER>_tomoyuki/.docker/contexts
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:08:29.840166958Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/<USER>_tomoyuki/.aws, linkPath = <HOME>/.aws
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:08:30.533254687Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/<USER>_tomoyuki/.azure, linkPath = <HOME>/.azure
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:08:31.234776863Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/<USER>_tomoyuki/.docker/features.json, linkPath = ~/.docker/features.json
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:33:47.205333361Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/<USER>_tomoyuki/.docker/contexts
+[2024-05-22T02:33:47.211311710Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/<USER>_tomoyuki/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:33:47.777810781Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/<USER>_tomoyuki/.aws, linkPath = <HOME>/.aws
+[2024-05-22T02:33:47.781223326Z][docker-desktop-user-distro] no need to symlink <HOME>/.aws to /mnt/c/Users/<USER>_tomoyuki/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:33:48.397697165Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/<USER>_tomoyuki/.azure, linkPath = <HOME>/.azure
+[2024-05-22T02:33:48.400763400Z][docker-desktop-user-distro] no need to symlink <HOME>/.azure to /mnt/c/Users/<USER>_tomoyuki/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:33:48.991455106Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/<USER>_tomoyuki/.docker/features.json, linkPath = ~/.docker/features.json
+-------------------------------------------------------------------------------->8
+[2024-05-23T02:50:46.371370204Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/<USER>_tomoyuki/.docker/contexts
+[2024-05-23T02:50:46.377711100Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/<USER>_tomoyuki/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+[2024-05-23T02:50:47.247006960Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/<USER>_tomoyuki/.aws, linkPath = <HOME>/.aws
+[2024-05-23T02:50:47.252078303Z][docker-desktop-user-distro] no need to symlink <HOME>/.aws to /mnt/c/Users/<USER>_tomoyuki/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+[2024-05-23T02:50:49.003046287Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/<USER>_tomoyuki/.azure, linkPath = <HOME>/.azure
+[2024-05-23T02:50:49.009510978Z][docker-desktop-user-distro] no need to symlink <HOME>/.azure to /mnt/c/Users/<USER>_tomoyuki/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+[2024-05-23T02:50:49.765208290Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/<USER>_tomoyuki/.docker/features.json, linkPath = ~/.docker/features.json

@@ -1,0 +1,65 @@
+2024-05-23 14:04:43.401 [info] ログ レベル: Info
+2024-05-23 14:04:43.401 [info] Git の検証が検出されました: "git"
+2024-05-23 14:04:43.401 [info] "git" から Git "2.34.1" を使用しています
+2024-05-23 14:04:43.401 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-23 14:04:43.401 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-05-23 14:04:43.401 [info] Open repository: /home/fukasawa/test-project
+2024-05-23 14:04:43.421 [info] > git fetch [25ms]
+2024-05-23 14:04:43.430 [info] > git rev-parse --show-toplevel [13ms]
+2024-05-23 14:04:43.431 [info] > git config --get commit.template [21ms]
+2024-05-23 14:04:43.438 [info] > git config --get commit.template [10ms]
+2024-05-23 14:04:43.444 [info] No remotes found in the git config file.
+2024-05-23 14:04:43.445 [info] > git rev-parse --show-toplevel [9ms]
+2024-05-23 14:04:43.451 [info] No remotes found in the git config file.
+2024-05-23 14:04:43.451 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-05-23 14:04:43.452 [warning] No such branch: main.
+2024-05-23 14:04:43.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-05-23 14:04:43.467 [warning] No such branch: main.
+2024-05-23 14:04:43.470 [info] > git config --get commit.template [4ms]
+2024-05-23 14:04:43.470 [info] > git rev-parse --show-toplevel [10ms]
+2024-05-23 14:04:43.481 [info] No remotes found in the git config file.
+2024-05-23 14:04:43.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:04:43.483 [warning] No such branch: main.
+2024-05-23 14:04:43.490 [info] > git rev-parse --show-toplevel [16ms]
+2024-05-23 14:04:43.509 [info] > git status -z -uall [20ms]
+2024-05-23 14:04:43.510 [info] > git rev-parse --show-toplevel [13ms]
+2024-05-23 14:04:43.527 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 14:04:43.592 [info] > git rev-parse --show-toplevel [59ms]
+2024-05-23 14:04:43.604 [info] > git rev-parse --show-toplevel [6ms]
+2024-05-23 14:04:43.654 [info] > git rev-parse --show-toplevel [41ms]
+2024-05-23 14:04:43.661 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 14:04:43.696 [info] > git rev-parse --show-toplevel [29ms]
+2024-05-23 14:04:43.705 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 14:04:44.018 [info] > git show --textconv :config/auth.php [9ms]
+2024-05-23 14:04:44.019 [info] > git ls-files --stage -- /home/fukasawa/test-project/config/auth.php [4ms]
+2024-05-23 14:04:44.024 [info] > git cat-file -s 0ba5d5d8f10c959d538e1e6ae87aa271d41e1ff0 [0ms]
+2024-05-23 14:04:44.385 [info] > git check-ignore -v -z --stdin [3ms]
+2024-05-23 14:04:44.605 [info] > git config --get commit.template [5ms]
+2024-05-23 14:04:44.605 [info] No remotes found in the git config file.
+2024-05-23 14:04:44.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:04:44.605 [warning] No such branch: main.
+2024-05-23 14:04:44.611 [info] > git status -z -uall [1ms]
+2024-05-23 14:04:44.758 [info] > git ls-files --stage -- /home/fukasawa/test-project/config/auth.php [1ms]
+2024-05-23 14:04:44.764 [info] > git cat-file -s 0ba5d5d8f10c959d538e1e6ae87aa271d41e1ff0 [1ms]
+2024-05-23 14:04:44.833 [info] > git show --textconv :config/auth.php [1ms]
+2024-05-23 14:04:49.746 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [3ms]
+2024-05-23 14:04:49.746 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-05-23 14:04:49.752 [info] > git config --get-all user.name [1ms]
+2024-05-23 14:04:49.762 [info] > git config --get commit.template [6ms]
+2024-05-23 14:04:49.763 [info] No remotes found in the git config file.
+2024-05-23 14:04:49.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:04:49.763 [warning] No such branch: main.
+2024-05-23 14:04:49.769 [info] > git status -z -uall [2ms]
+2024-05-23 14:05:01.892 [info] > git check-ignore -v -z --stdin [1ms]

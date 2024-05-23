@@ -1,0 +1,27 @@
+2024-05-22 13:06:47.461 [info] 
+
+
+
+
+2024-05-22 13:06:47.461 [info] Extension host agent started.
+2024-05-22 13:06:47.461 [info] Started initializing default profile extensions in extensions installation folder. file:///home/fukasawa/.vscode-server/extensions
+2024-05-22 13:06:47.471 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/fukasawa/.vscode-server/extensions
+2024-05-22 13:06:47.767 [info] [127.0.0.1][ec24dd27][ManagementConnection] New connection established.
+2024-05-22 13:06:47.937 [info] Installing extensions...
+2024-05-22 13:06:47.991 [info] [127.0.0.1][6d8e7ea8][ExtensionHostConnection] New connection established.
+2024-05-22 13:06:48.086 [info] [127.0.0.1][6d8e7ea8][ExtensionHostConnection] <1772> Launched Extension Host Process.
+2024-05-22 13:06:48.668 [info] Installing extension 'ms-ceintl.vscode-language-pack-ja'...
+2024-05-22 13:06:48.670 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:06:48.696 [info] Installing extension: ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:06:50.408 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-ja: Success. Duration: 1319ms.
+2024-05-22 13:06:50.512 [info] Extracted extension to file:///home/fukasawa/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.89.2024050109: ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:06:50.516 [info] Renamed to /home/fukasawa/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.89.2024050109
+2024-05-22 13:06:50.519 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:06:50.523 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:06:50.560 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:06:50.561 [info] Extension 'ms-ceintl.vscode-language-pack-ja' v1.89.2024050109 was successfully installed.
+2024-05-22 13:07:30.688 [info] [127.0.0.1][ec24dd27][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-05-22 13:07:30.726 [info] [127.0.0.1][6d8e7ea8][ExtensionHostConnection] <1772> Extension Host Process exited with code: 0, signal: null.
+2024-05-22 13:07:33.113 [info] [127.0.0.1][9134abe4][ManagementConnection] New connection established.
+2024-05-22 13:07:33.786 [info] [127.0.0.1][427a4da3][ExtensionHostConnection] New connection established.
+2024-05-22 13:07:33.797 [info] [127.0.0.1][427a4da3][ExtensionHostConnection] <2010> Launched Extension Host Process.

@@ -1,0 +1,59 @@
+2024-05-23 14:07:00.886 [info] ログ レベル: Info
+2024-05-23 14:07:00.886 [info] Git の検証が検出されました: "git"
+2024-05-23 14:07:00.886 [info] "git" から Git "2.34.1" を使用しています
+2024-05-23 14:07:00.886 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 14:07:00.886 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-05-23 14:07:00.886 [info] Open repository: /home/fukasawa/test-project
+2024-05-23 14:07:00.886 [info] > git fetch [35ms]
+2024-05-23 14:07:00.886 [info] > git rev-parse --show-toplevel [26ms]
+2024-05-23 14:07:00.886 [info] > git config --get commit.template [33ms]
+2024-05-23 14:07:00.886 [info] > git config --get commit.template [11ms]
+2024-05-23 14:07:00.886 [info] No remotes found in the git config file.
+2024-05-23 14:07:00.886 [info] > git rev-parse --show-toplevel [21ms]
+2024-05-23 14:07:00.892 [info] No remotes found in the git config file.
+2024-05-23 14:07:00.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-05-23 14:07:00.900 [warning] No such branch: main.
+2024-05-23 14:07:00.915 [info] > git rev-parse --show-toplevel [18ms]
+2024-05-23 14:07:00.915 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2024-05-23 14:07:00.915 [warning] No such branch: main.
+2024-05-23 14:07:00.923 [info] > git config --get commit.template [11ms]
+2024-05-23 14:07:00.971 [info] > git rev-parse --show-toplevel [49ms]
+2024-05-23 14:07:00.976 [info] No remotes found in the git config file.
+2024-05-23 14:07:00.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-05-23 14:07:00.981 [warning] No such branch: main.
+2024-05-23 14:07:00.987 [info] > git rev-parse --show-toplevel [7ms]
+2024-05-23 14:07:00.996 [info] > git status -z -uall [11ms]
+2024-05-23 14:07:01.012 [info] > git rev-parse --show-toplevel [18ms]
+2024-05-23 14:07:01.020 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 14:07:01.033 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 14:07:01.042 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 14:07:01.051 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 14:07:01.063 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 14:07:01.073 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 14:07:01.319 [info] > git show --textconv :config/auth.php [12ms]
+2024-05-23 14:07:01.320 [info] > git ls-files --stage -- /home/fukasawa/test-project/config/auth.php [2ms]
+2024-05-23 14:07:01.330 [info] > git cat-file -s 0ba5d5d8f10c959d538e1e6ae87aa271d41e1ff0 [3ms]
+2024-05-23 14:07:01.361 [info] > git check-ignore -v -z --stdin [15ms]
+2024-05-23 14:07:11.895 [info] > git config --get commit.template [1ms]
+2024-05-23 14:07:11.899 [info] No remotes found in the git config file.
+2024-05-23 14:07:11.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:07:11.900 [warning] No such branch: main.
+2024-05-23 14:07:11.904 [info] > git status -z -uall [1ms]
+2024-05-23 14:07:11.998 [info] > git ls-files --stage -- /home/fukasawa/test-project/config/auth.php [1ms]
+2024-05-23 14:07:12.002 [info] > git cat-file -s 0ba5d5d8f10c959d538e1e6ae87aa271d41e1ff0 [1ms]
+2024-05-23 14:07:12.027 [info] > git show --textconv :config/auth.php [1ms]
+2024-05-23 14:08:33.292 [info] > git config --get commit.template [4ms]
+2024-05-23 14:08:33.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:08:33.292 [warning] No such branch: main.
+2024-05-23 14:08:33.296 [info] > git status -z -uall [1ms]
+2024-05-23 14:08:33.390 [info] > git ls-files --stage -- /home/fukasawa/test-project/config/auth.php [1ms]
+2024-05-23 14:08:33.393 [info] > git cat-file -s 0ba5d5d8f10c959d538e1e6ae87aa271d41e1ff0 [0ms]
+2024-05-23 14:08:33.416 [info] > git show --textconv :config/auth.php [16ms]
+2024-05-23 14:10:01.468 [info] > git fetch [551ms]
+2024-05-23 14:10:01.474 [info] > git config --get commit.template [3ms]
+2024-05-23 14:10:01.475 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:10:01.475 [warning] No such branch: main.
+2024-05-23 14:10:01.478 [info] > git status -z -uall [1ms]
+2024-05-23 14:10:02.107 [info] > git ls-files --stage -- /home/fukasawa/test-project/config/auth.php [1ms]
+2024-05-23 14:10:02.112 [info] > git cat-file -s 0ba5d5d8f10c959d538e1e6ae87aa271d41e1ff0 [0ms]
+2024-05-23 14:10:02.120 [info] > git show --textconv :config/auth.php [1ms]
